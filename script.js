@@ -8,10 +8,10 @@ function checkNumber() {
     }
 
     if (num % 2 === 0) {
-        result.innerHTML = num + " is Even";
+        result.innerHTML = num + " IS EVEN ";
         result.className = "show even";
     } else {
-        result.innerHTML = num + " is Odd";
+        result.innerHTML = num + " IS ODD ";
         result.className = "show odd";
     }
 }
